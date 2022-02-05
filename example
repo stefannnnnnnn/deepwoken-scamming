@@ -1,0 +1,14 @@
+
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do 
+    if v:IsA("Tool") then
+        v.ToolTip = "Fashioned after the legendary blade said to be wielded by the King of Etrea, the Splinterblade. An exceptionally lethal blade that makes short work of heavy armor.                                                        100 MED                                                               [Curse Of The Bloodthirsty]"
+    end
+end
+
+if we didnt have the spaces then it would be like this 
+toolname,requirements,curse or enchant
+but if we did have the spaces it would be layered like
+toolname
+requirements
+curse or enchant
